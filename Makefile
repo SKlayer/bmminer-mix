@@ -53,6 +53,10 @@
 
 ## Customizable Section: adapt those variables to suit your program.
 ##==========================================================================
+XILINX_BASE_PATH=/opt/Xilinx/SDK/2017.4/gnu/aarch32/lin/gcc-arm-linux-gnueabi
+XILINX_OTHER_LIB_BASE_PATH=/zynq
+## WD
+
 
 USR = $(XILINX_BASE_PATH)/arm-linux-gnueabihf/libc/usr
 XILINX_INC = $(USR)/include
